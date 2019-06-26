@@ -1,0 +1,6 @@
+[  215.858568] faustus: Omitting DMI verification
+[  215.859097] input: Faustus Hotkey Input as /devices/platform/faustus/input/input16
+[  215.859416] faustus: Failed to install WMI notify handler: AE_ALREADY_ACQUIRED
+[  215.898768] faustus: probe of faustus failed with error -5
+[  215.898806] faustus: Can't probe platform driver: -19
+ 
