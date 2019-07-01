@@ -1,0 +1,69 @@
+No device specified, trying to scan all of /dev/input/event*
+Available devices:
+/dev/input/event0:      AT Translated Set 2 keyboard
+/dev/input/event1:      Video Bus
+/dev/input/event2:      Power Button
+/dev/input/event3:      Lid Switch
+/dev/input/event4:      Sleep Button
+/dev/input/event5:      Power Button
+/dev/input/event6:      Asus Wireless Radio Control
+/dev/input/event7:      PC Speaker
+/dev/input/event8:      HD-Audio Generic Front Headphone
+/dev/input/event9:      ELAN1200:00 04F3:30BA Touchpad
+/dev/input/event10:     HDA NVidia HDMI/DP,pcm=3
+/dev/input/event11:     USB2.0 HD UVC WebCam: USB2.0 HD
+/dev/input/event12:     Faustus Hotkey Input
+Select the device event number [0-12]: 12
+Input driver version is 1.0.1
+Input device ID: bus 0x19 vendor 0x0 product 0x0 version 0x0
+Input device name: "Faustus Hotkey Input"
+Supported events:
+  Event type 0 (EV_SYN)
+  Event type 1 (EV_KEY)
+    Event code 140 (KEY_CALC)
+    Event code 229 (KEY_KBDILLUMDOWN)
+    Event code 230 (KEY_KBDILLUMUP)
+    Event code 240 (KEY_UNKNOWN)
+    Event code 248 (KEY_MICMUTE)
+    Event code 431 (KEY_DISPLAYTOGGLE)
+    Event code 470 (KEY_FN_F5)
+    Event code 530 (KEY_TOUCHPAD_TOGGLE)
+  Event type 4 (EV_MSC)
+    Event code 4 (MSC_SCAN)
+Properties:
+Testing ... (interrupt to exit)
+Event: time 1562015866.981924, type 4 (EV_MSC), code 4 (MSC_SCAN), value 7c
+Event: time 1562015866.981924, type 1 (EV_KEY), code 248 (KEY_MICMUTE), value 1
+Event: time 1562015866.981924, -------------- SYN_REPORT ------------
+Event: time 1562015866.981940, type 1 (EV_KEY), code 248 (KEY_MICMUTE), value 0
+Event: time 1562015866.981940, -------------- SYN_REPORT ------------
+Event: time 1562015879.093975, type 4 (EV_MSC), code 4 (MSC_SCAN), value 33
+Event: time 1562015879.093975, type 1 (EV_KEY), code 431 (KEY_DISPLAYTOGGLE), value 1
+Event: time 1562015879.093975, -------------- SYN_REPORT ------------
+Event: time 1562015879.093992, type 1 (EV_KEY), code 431 (KEY_DISPLAYTOGGLE), value 0
+Event: time 1562015879.093992, -------------- SYN_REPORT ------------
+Event: time 1562015891.441650, type 4 (EV_MSC), code 4 (MSC_SCAN), value 6b
+Event: time 1562015891.441650, type 1 (EV_KEY), code 530 (KEY_TOUCHPAD_TOGGLE), value 1
+Event: time 1562015891.441650, -------------- SYN_REPORT ------------
+Event: time 1562015891.441661, type 1 (EV_KEY), code 530 (KEY_TOUCHPAD_TOGGLE), value 0
+Event: time 1562015891.441661, -------------- SYN_REPORT ------------
+Event: time 1562015896.665948, type 4 (EV_MSC), code 4 (MSC_SCAN), value b5
+Event: time 1562015896.665948, type 1 (EV_KEY), code 140 (KEY_CALC), value 1
+Event: time 1562015896.665948, -------------- SYN_REPORT ------------
+Event: time 1562015896.665961, type 1 (EV_KEY), code 140 (KEY_CALC), value 0
+Event: time 1562015896.665961, -------------- SYN_REPORT ------------
+Event: time 1562015902.697979, type 4 (EV_MSC), code 4 (MSC_SCAN), value c5
+Event: time 1562015902.697979, type 1 (EV_KEY), code 229 (KEY_KBDILLUMDOWN), value 1
+Event: time 1562015902.697979, -------------- SYN_REPORT ------------
+Event: time 1562015902.697992, type 1 (EV_KEY), code 229 (KEY_KBDILLUMDOWN), value 0
+Event: time 1562015902.697992, -------------- SYN_REPORT ------------
+Event: time 1562015903.533604, type 4 (EV_MSC), code 4 (MSC_SCAN), value c4
+Event: time 1562015903.533604, type 1 (EV_KEY), code 230 (KEY_KBDILLUMUP), value 1
+Event: time 1562015903.533604, -------------- SYN_REPORT ------------
+Event: time 1562015903.533620, type 1 (EV_KEY), code 230 (KEY_KBDILLUMUP), value 0
+Event: time 1562015903.533620, -------------- SYN_REPORT ------------
+Event: time 1562015920.621950, type 4 (EV_MSC), code 4 (MSC_SCAN), value ae
+Event: time 1562015920.621950, type 1 (EV_KEY), code 240 (KEY_UNKNOWN), value 1
+Event: time 1562015920.621950, -------------- SYN_REPORT ------------
+Event: time 1562015920.621968, type 1 (EV_KEY), code 240 (KEY_UNKNOWN), value 0
+Event: time 1562015920.621968, -------------- SYN_REPORT ------------
